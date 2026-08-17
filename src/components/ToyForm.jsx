@@ -50,7 +50,7 @@ function ToyForm({ onAddToy }) {
         />
       </form>
     </div>
-  );
+  );SS
 }
 
 export default ToyForm;
