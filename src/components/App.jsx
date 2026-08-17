@@ -28,7 +28,7 @@ function App() {
     fetch(`http://localhost:3001/toys/${id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ likes: toy.likes + 10 }),
+      body: JSON.stringify({ likes: toy.likes + 1 }),
     })
       .then((res) => res.json())
       .then((updated) =>
